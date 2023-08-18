@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from utils_NTU import read_xyz
-from joints import connexion_tuples
+from utils.utils_NTU import read_xyz
+from utils.joints import connexion_tuples
 import matplotlib.animation as animation
 import mpl_toolkits.mplot3d as plt3d
 """ Tutorial how to do some matplotlibanimation https://acme.byu.edu/00000179-d3f1-d7a6-a5fb-ffff6a210001/animation-pdf"""
