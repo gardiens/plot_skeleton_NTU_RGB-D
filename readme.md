@@ -13,12 +13,12 @@ To use this repo you need two things:
 ```py
    pip install requirements.txt
    ```
-2. Download ffmpeg to save the video. It is really easy to download and works almost every time, you can find it [here](https://ffmpeg.org/download.html)
+2. Download ffmpeg to save videos. It is really easy to download and works almost every time, you can find it [here](https://ffmpeg.org/download.html)
 
 
 ## Usage: 
 Follow the getting started to have a quick hands-on. Every function are documented  
-I recommend to save the videos to see them because the matplotlib.animation can be buggy on some jupyter ( or vscode). They are stored in the folder videos.
+I recommend to save the video to see them because the matplotlib.animation can be buggy on some jupyter ( or vscode). They are stored in the folder videos.
 
 
 
