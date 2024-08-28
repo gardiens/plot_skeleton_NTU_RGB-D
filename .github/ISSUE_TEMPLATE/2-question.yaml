@@ -1,6 +1,6 @@
 
 name: Ask a Question
-description: Ask a question on how to use Open3D, how to implement something, etc.
+description: Ask a question on how to use Open3D, how to implement something, etc. TG
 title: "Summarize the question. (e.g., \"How to run reconstruction system with RealSense D435i? \")"
 labels: [question]
 
