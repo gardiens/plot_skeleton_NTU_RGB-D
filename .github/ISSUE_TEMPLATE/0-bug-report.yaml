@@ -1,5 +1,5 @@
 name: Report a Bug
-description: I found a possible bug .
+description: Create a new ticket for a bug.	
 title: "Summarize the bug"
 labels: [bug]
 
