@@ -22,7 +22,6 @@ body:
     description: >
       Provide the *detailed* description of the issue you are facing. Include
       references to any documentation or issues you referred.
-    placeholder: |
 
   validations:
     required: true
