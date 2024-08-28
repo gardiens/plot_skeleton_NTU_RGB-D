@@ -1,7 +1,7 @@
 
 name: Ask a Question
-description: Ask a question on how to use Open3D, how to implement something, etc. TG
-title: "Summarize the question. (e.g., \"How to run reconstruction system with RealSense D435i? \")"
+description: Ask a question on how to use SuperPoint Transformer, how to implement something, etc.
+title: "Summarize the question. \")"
 labels: [question]
 
 body:
@@ -10,11 +10,11 @@ body:
   attributes:
     label: "Checklist"
     options:
-      - label: "I have searched for [similar issues](https://github.com/isl-org/Open3D/issues)."
+      - label: "I have searched for [similar issues](https://github.com/drprojects/superpoint_transformer/issues)."
         required: true
-      - label: "For Python issues, I have tested with the [latest development wheel](https://www.open3d.org/docs/latest/getting_started.html#development-version-pip)."
+      - label: " I have tested with the lastest available version."
         required: true
-      - label: "I have checked the [release documentation](https://www.open3d.org/docs/release/) and the [latest documentation](https://www.open3d.org/docs/latest/) (for `main` branch)."
+      - label: "I have checked the [introduction page](https://github.com/drprojects/superpoint_transformer/blob/master/README.md ) and the [documentation](https://github.com/drprojects/superpoint_transformer/tree/master/docs) "
         required: true
 
 - type: textarea
