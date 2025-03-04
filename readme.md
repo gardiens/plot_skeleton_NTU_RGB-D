@@ -17,7 +17,7 @@ To use this repo you need two things:
 
 
 ## Usage: 
-Follow the getting started to have a quick hands-on. Every function are documented  
+Follow the 'getting_started.ipynb' to have a quick hands-on. Every function are documented  
 I recommend to save the video to see them because the matplotlib.animation can be buggy on some jupyter ( or vscode). They are stored in the folder videos.
 
 
