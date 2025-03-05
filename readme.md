@@ -1,28 +1,32 @@
 
 
+# Visualization/Plot of NTU-RGB Skeleton with Python    
 
-# Vizualisation/Plot of NTU-RGB skeleton with Python    
-
-The goal of this project is to propose some tools to see skeleton of the NTU_RGB+D dataset.
-The authors of the dataset proposed some code in matlab but I don't want to use it so I proposed my own code in python. I searched on the web as well but I didn't see any working solution or well documented one.
-
+This project provides tools to visualize the skeleton data from the NTU_RGB+D dataset using Python. While the dataset authors provided MATLAB code for visualization, this repository offers an alternative Python-based implementation. Existing online solutions were either non-functional or lacked proper documentation, prompting the development of this repository.
 
 ## Installation
-To use this repo you need two things:
-1. Install the requirements
-```py
-   pip install requirements.txt
+To use this repository, follow these steps:
+
+1. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
    ```
-2. Download ffmpeg to save videos. It is really easy to download and works almost every time, you can find it [here](https://ffmpeg.org/download.html)
+
+   
+2. Download and install FFmpeg to enable video saving. It is easy to install and works reliably across platforms. You can find it [here](https://ffmpeg.org/download.html)
 
 
-## Usage: 
-Follow the 'getting_started.ipynb' to have a quick hands-on. Every function are documented  
-I recommend to save the video to see them because the matplotlib.animation can be buggy on some jupyter ( or vscode). They are stored in the folder videos.
+## Usage
+Refer to `getting_started.ipynb` for a quick introduction. All functions are documented for ease of use.  
 
+It is recommended to save visualizations as videos, as `matplotlib.animation` may not work reliably in some Jupyter environments (such as VS Code). Videos are stored in the `videos/` folder.
 
+### Example Output:
+Pre-generated examples are available in the `videos/` folder. Below is a sample expected output:
 
-## Thanks:
-Please star this repo if you find useful and the repo where it comes from ([here](https://github.com/gardiens/Time-Series-Library_babygarches))
+![Skeleton Animation](videos/gif.gif)
 
-Thanks for the [Rose Lab](https://rose1.ntu.edu.sg/dataset/actionRecognition/) to give the opportunity to work on this challenging dataset 
+## Acknowledgments
+If you find this repository useful, please consider starring it. The original repository that inspired this project can be found [here](https://github.com/gardiens/Time-Series-Library_babygarches).
+
+Special thanks to the [Rose Lab](https://rose1.ntu.edu.sg/dataset/actionRecognition/) for providing the NTU_RGB+D dataset, which enables research on this challenging problem.
